@@ -13,7 +13,7 @@ $user = $_SESSION['user'];
     <div class="d-flex align-items-center">
       <span class="me-3">Halo, <?= htmlspecialchars($user['nama']) ?></span>
       <img src="assets/img/<?= $user['foto'] ?>" alt="Foto Profil" width="40" height="40" class="rounded-circle me-3">
-      <a href="logout.php" class="btn btn-outline-danger btn-sm">Logout</a>
+      <a href="login.php" class="btn btn-outline-danger btn-sm">Logout</a>
     </div>
   </div>
 </nav>
