@@ -21,9 +21,6 @@ body {
 }
 
 /* Navbar */
-.navbar {
-  padding: 10px 20px;
-}
 
 .navbar .navbar-brand {
   font-weight: bold;
@@ -41,4 +38,18 @@ body {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.table img {
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.navbar {
+  z-index: 1000;
+}
+
+.sidebar .nav-link.active {
+  background-color: #0d6efd;
+  color: white !important;
 }

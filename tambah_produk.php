@@ -25,7 +25,7 @@ $user = $_SESSION['user'];
         <?php include 'sidebar.php'; ?>
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 py-4">
             <h2>Tambah Produk</h2>
-            <form action="tambah_produk_proses.php" method="POST" enctype="multipart/form-data" class="form-produk">
+            <form action="tambah_produk_proses.php" method="POST" enctype="multipart/form-data" class="form-produk p-4 rounded shadow-sm bg-white">
                 <div class="mb-3">
                     <label for="nama" class="form-label">Nama Produk</label>
                     <input type="text" name="nama" class="form-control" required>
