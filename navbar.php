@@ -9,7 +9,7 @@ if (!isset($_SESSION['user'])) {
 }
 $user = $_SESSION['user'];
 ?>
-<nav class="navbar navbar-expand navbar-light bg-light" style="margin-left: 250px;">
+<nav class="navbar navbar-expand navbar-light bg-light sticky-top" style="margin-left: 250px; z-index: 1030;">
   <div class="container-fluid">
     <span class="navbar-brand">Dashboard</span>
     <div class="d-flex align-items-center">
