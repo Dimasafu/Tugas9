@@ -45,11 +45,24 @@ body {
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
-.navbar {
+.navbar-custom {
   z-index: 1000;
+  margin-left: 250px; 
+  z-index: 1030;
+  background-color: #007bff !important;
 }
 
 .sidebar .nav-link.active {
   background-color: #0d6efd;
-  color: white !important;
+  color: white;
+}
+
+.sidebar-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #007bff !important;
+  padding-top: 20px;
 }

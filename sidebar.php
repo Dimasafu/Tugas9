@@ -1,14 +1,14 @@
 <?php
 // sidebar.php
 ?>
-<div class="d-flex flex-column p-3 bg-dark text-white" style="width: 250px; height: 100vh; position: fixed;">
-  <h4 class="mb-4">E-Commerce</h4>
+<div class="sidebar d-flex flex-column p-3 sidebar-custom" style="width: 250px; height: 100vh; position: fixed;">
+  <h4 class="mb-4 text-light">E-Commerce</h4>
   <ul class="nav nav-pills flex-column mb-auto">
     <li class="nav-item">
-      <a href="dashboard.php" class="nav-link text-white">Home</a>
+      <a href="dashboard.php" class="nav-link text-light">Home</a>
     </li>
     <li>
-      <a class="nav-link text-white" data-bs-toggle="collapse" href="#productMenu" role="button">
+      <a class="nav-link text-light" data-bs-toggle="collapse" href="#productMenu" role="button">
         Product
       </a>
       <div class="collapse ms-3" id="productMenu">

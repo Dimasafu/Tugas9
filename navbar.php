@@ -9,13 +9,13 @@ if (!isset($_SESSION['user'])) {
 }
 $user = $_SESSION['user'];
 ?>
-<nav class="navbar navbar-expand navbar-light bg-light sticky-top" style="margin-left: 250px; z-index: 1030;">
+<nav class="navbar navbar-expand sticky-top navbar-custom">
   <div class="container-fluid">
-    <span class="navbar-brand">Dashboard</span>
+    <span class="navbar-brand text-light">Welcome</span>
     <div class="d-flex align-items-center">
-      <span class="me-3">Halo, <?= htmlspecialchars($user['nama']) ?></span>
+      <span class="me-3 text-light">Halo, <?= htmlspecialchars($user['nama']) ?></span>
       <img src="assets/img/<?= $user['foto'] ?>" alt="Foto Profil" width="40" height="40" class="rounded-circle me-3">
-      <a href="login.php" class="btn btn-outline-danger btn-sm">Logout</a>
+      <a href="login.php" class="btn btn-warning btn-sm">Logout</a>
     </div>
   </div>
 </nav>

@@ -60,7 +60,7 @@ $result = mysqli_query($conn, $query);
                 <?php while ($row = mysqli_fetch_assoc($result)) : ?>
                     <div class="col-md-4 mb-4">
                         <div class="card shadow-sm">
-                            <img src="assets/img/<?= $row['gambar'] ?>" class="card-img-top" alt="<?= $row['nama'] ?>" style="height: 200px; object-fit: cover;">
+                            <img src="uploads/<?= $row['gambar'] ?>" class="card-img-top img-fluid" alt="<?= $row['nama'] ?>" style="height: 200px; object-fit: contain; max-width: 100%;">
                             <div class="card-body">
                                 <h5 class="card-title"><?= $row['nama'] ?></h5>
                                 <p class="card-text"><?= substr($row['deskripsi'], 0, 100) ?>...</p>
